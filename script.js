@@ -9,9 +9,9 @@ fetch("https://weatherapp-backend-theta-dusky.vercel.app/weather")
 				<p class="description">${data.weather[i].description}</p>
 				<img class="weatherIcon" src="images/${data.weather[i].main}.png"/>
 				<div class="temperature">
-					<p class="tempMin">${data.weather[i].tempMin}°C</p>
+					<p class="tempMin">${data.weather[i].tempMin.toFixed(0)}°C</p>
 					<span>-</span>
-					<p class="tempMax">${data.weather[i].tempMax}°C</p>
+					<p class="tempMax">${data.weather[i].tempMax.toFixed(0)}°C</p>
 				</div>
 				<button class="deleteCity" id="${data.weather[i].cityName}">Delete</button>
 			</div>
@@ -57,9 +57,9 @@ document.querySelector("#addCity").addEventListener("click", function () {
 				<p class="description">${data.weather.description}</p>
 				<img class="weatherIcon" src="images/${data.weather.main}.png"/>
 				<div class="temperature">
-					<p class="tempMin">${data.weather.tempMin}°C</p>
+					<p class="tempMin">${data.weather.tempMin.toFixed(0)}°C</p>
 					<span>-</span>
-					<p class="tempMax">${data.weather.tempMax}°C</p>
+					<p class="tempMax">${data.weather.tempMax.toFixed(0)}°C</p>
 				</div>
 				<button class="deleteCity" id="${data.weather.cityName}">Delete</button>
 			</div>
