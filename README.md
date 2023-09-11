@@ -48,7 +48,7 @@ yarn dev
 
 ## 🚀 Deploy
 
-⇒ https://weatherapp-frontend-indol.vercel.app/
+⇒ https://weatherapp-frontend-indol.vercel.app/index.html
 
 ## 🧑‍💻 Authors
 
