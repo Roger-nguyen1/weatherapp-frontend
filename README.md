@@ -20,7 +20,7 @@ Enfin, la quatrième et dernière phase du projet consiste en l'introduction d'u
 
 Dans l'ensemble, ce projet m'a permis d'appliquer des compétences en HTML, CSS, Javascript, développement backend et communication client/serveur. J'ai pu acquérir de l'expérience dans l'intégration d'API externes ainsi que dans la structuration des itinéraires et la gestion du stockage des données.
 
-## 🎬 Getting Started : Dependencies and Other
+## 🎬 Démarrage : Dépendances et Autres
 
 La plupart de mes projets ont un frontend et backend séparés, vous les trouverez sur mon github.
 
@@ -36,7 +36,7 @@ yarn dev
 
 ```
 
-## ⚛️ Tech and Stuff
+## ⚛️ Stack technique
 
 - HTML
 - CSS
@@ -46,15 +46,15 @@ yarn dev
 - Vercel
 - …
 
-## 🚀 Deploy
+## 🚀 Site web déployé
 
 ⇒ https://weatherapp-frontend-indol.vercel.app/index.html
 
-## 🧑‍💻 Authors
+## 🧑‍💻 Auteur
 
 Roger NGUYEN
 
-## 🌐 Network
+## 🌐 Réseau
 
 My Portfolio : [Roger NGUYEN](https://portfolio-roger.vercel.app/)
 
